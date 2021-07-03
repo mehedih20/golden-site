@@ -1,0 +1,141 @@
+@media (max-width: 940px) {
+  .header {
+    padding: 3.5rem 3rem;
+  }
+
+  .services-container {
+    padding: 0 2rem;
+  }
+  .portfolio-container {
+    padding: 0 2rem;
+  }
+  .about-title {
+    padding: 0 2rem;
+  }
+  .team-container {
+    padding: 0 2rem;
+  }
+  .platform-content {
+    padding: 0 2rem;
+  }
+  .forms {
+    padding: 0 2rem;
+  }
+
+  /* ------------ About ----------------- */
+
+  .about-title {
+    margin-bottom: 6rem;
+  }
+
+  .about-content {
+    align-items: flex-start;
+  }
+
+  .about-box {
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1;
+    padding-left: 3rem;
+    margin-bottom: 5rem;
+    width: calc(100vw - 20%);
+  }
+
+  .about-text {
+    width: calc(100% - 10%);
+    margin-top: 2rem;
+    padding-left: 0;
+  }
+
+  .line {
+    left: 5%;
+    height: 100%;
+  }
+
+  .about-box {
+    left: 10%;
+  }
+  .about-box:nth-child(odd) {
+    left: 10%;
+  }
+
+  .about-box:nth-child(odd) .about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-box:nth-child(even) {
+    right: 20rem;
+  }
+
+  .about-box:nth-child(even) .about-text {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-box:nth-child(even) .about-text p {
+    text-align: left;
+  }
+  .about-box:nth-child(odd) .about-text p {
+    text-align: left;
+  }
+
+  .about-box:last-child {
+    left: 10%;
+    right: 0;
+    margin-bottom: 0;
+    height: 13.9rem;
+    width: 13.9rem;
+  }
+}
+
+/* --------------------------------------------------- */
+
+@media (max-width: 650px) {
+  .nav-list {
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .nav-item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  platform-img img {
+    width: 50%;
+  }
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+
+  .inputs {
+    margin-bottom: 2rem;
+  }
+
+  .heading-lg {
+    font-size: 3rem;
+  }
+
+  .heading-italic {
+    font-size: 3rem;
+  }
+
+  .heading {
+    font-size: 4.5rem;
+  }
+
+  .header-text a {
+    margin-bottom: 6rem;
+  }
+
+  .form-content > * {
+    width: 90%;
+  }
+}
